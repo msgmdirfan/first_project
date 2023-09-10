@@ -1,0 +1,47 @@
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    
+}
+li{
+    display: inline;
+}
+.product {
+   
+    display: inline-block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 220px;
+    text-align: center;
+    padding-left: 20px;
+    margin: 50px;
+
+}
+
+
+
+.two {
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 2px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.send {
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    
+}
+
+
+
+
+
