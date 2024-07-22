@@ -1,55 +1,53 @@
-<html>
-    <head>
-        <title> Food Order</title>
-        
-<link rel="stylesheet" href="style.css">
-    </head>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+    <link rel="stylesheet" href="new1.css">
+</head>
 <body>
-    
-<div>
-    <nav>
-
-
-<ul>
-    <h1>
-        REESTER
-    </h1>
-    
-    <li>home |</li>
-    <li> My foods |</li>
-    <li>contact |</li>
-   
-</ul>
-</nav>
-</div>
-<div class="product">
-    <img src="https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="220px" height="220px">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ullam, quod cumque reiciendis explicabo quos eligendi assumenda autem, natus iure voluptate corporis aperiam mollitia quidem dolorem enim vel, sint voluptatum.</p>
-    <h2 class="two">order now</h2>
-
-</div>
-<div class="product">
-    <img src="https://images.pexels.com/photos/15913452/pexels-photo-15913452/free-photo-of-poke-bowl-with-salmon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"  width="220px" height="220px">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ullam, quod cumque reiciendis explicabo quos eligendi assumenda autem, natus iure voluptate corporis aperiam mollitia quidem dolorem enim vel, sint voluptatum.</p>
-    <h2 class="two">order now</h2>
-
-</div>
-</div>
-<div class="product">
-    <img src="https://cdn.vox-cdn.com/thumbor/zCinSGyRU-HSDgCe3vuTyvVvHbY=/0x0:7360x4912/2420x1613/filters:focal(3092x1868:4268x3044):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67000785/shutterstock_1435374326.0.jpg"  width="220px" height=220px>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ullam, quod cumque reiciendis explicabo quos eligendi assumenda autem, natus iure voluptate corporis aperiam mollitia quidem dolorem enim vel, sint voluptatum.</p>
-    <h2 class="two">order now</h2>
-
-</div>
-</div>
-<div class="contact">
-    <h1>contact us</h1>
-
-    <h2>name<input type="text" placeholder="name"></h2>
-     <h2>age<input type="number" placeholder="age"></h2>
-     <h2>email<input type="text" placeholder="Email"></h2>
-     <h3 class="send"> send</h3>
-</div>
+    <div>
+        <nav>
+            <h1>REESTER</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#myfoods">My Foods</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="products">
+        <div class="product">
+            <img src="https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Delicious Pizza" width="220" height="220">
+            <p>Enjoy our delicious pizza made with the freshest ingredients. Whether you're craving a classic Margherita or a loaded Supreme, we have something to satisfy every taste.</p>
+            <h2 class="order-now">Order Now</h2>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/15913452/pexels-photo-15913452/free-photo-of-poke-bowl-with-salmon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Healthy Poke Bowl" width="220" height="220">
+            <p>Try our healthy poke bowls featuring fresh salmon, avocado, and a variety of vegetables. Perfect for a nutritious and delicious meal any time of day.</p>
+            <h2 class="order-now">Order Now</h2>
+        </div>
+        <div class="product">
+            <img src="https://cdn.vox-cdn.com/thumbor/zCinSGyRU-HSDgCe3vuTyvVvHbY=/0x0:7360x4912/2420x1613/filters:focal(3092x1868:4268x3044):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67000785/shutterstock_1435374326.0.jpg" alt="Tasty Burger" width="220" height="220">
+            <p>Savor our mouthwatering burgers made from high-quality beef and fresh toppings. Each burger is crafted to deliver a burst of flavor in every bite.</p>
+            <h2 class="order-now">Order Now</h2>
+        </div>
+    </div>
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+            
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Your Age">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email">
+            
+            <button type="submit" class="send">Send</button>
+        </form>
+    </div>
 </body>
 </html>
