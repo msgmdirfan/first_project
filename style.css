@@ -1,47 +1,138 @@
-nav{
-    background-color: black;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
     color: white;
     text-align: center;
-    cursor: pointer;
-    
+    padding: 15px 0;
 }
-li{
+
+nav h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav li {
     display: inline;
+    margin: 0 15px;
 }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
 .product {
-   
-    display: inline-block;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 8px;
     width: 220px;
     text-align: center;
-    padding-left: 20px;
-    margin: 50px;
-
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.product img {
+    width: 100%;
+    height: 150px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 8px;
+}
 
+.product p {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0;
+}
 
-.two {
-    background-color: black;
+.order-now {
+    background-color: #333;
     color: white;
     display: inline;
-    padding: 2px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
 }
-.contact{
-    background-color: black;
+
+.order-now:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
     color: white;
     text-align: center;
+    padding: 40px 20px;
 }
-.send {
+
+.contact h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact label {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.contact input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact .send {
     background-color: yellow;
-    text-align: center;
     color: black;
-    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
-
-
-
-
+.contact .send:hover {
+    background-color: #f2c300;
+}
